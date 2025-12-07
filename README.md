@@ -243,13 +243,6 @@ The database will be recreated automatically on next server start.
 
 Avatar files are stored in `static/avatars/` directory, which is created automatically on first upload.
 
-## Not Implemented (Bonus Features)
-
-- [x] **Dockerfile / docker-compose** — run with single command ✅
-- [x] **Unit tests** — service and API endpoint tests ✅
-- [ ] **OAuth2 refresh tokens** — currently only access tokens
-- [ ] **Integration tests** — full integration test suite
-
 ## Project Structure
 
 ```
