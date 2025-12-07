@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Database (mounted as volume instead)
+*.db
+
+# Logs and temp files
+*.log
+*.tmp
+bash.exe.stackdump
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation (not needed in image)
+README.md
+LICENSE
+
+# Test files
+tests/
+pytest.ini
+.coverage
+htmlcov/
+
+
+
+

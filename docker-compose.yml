@@ -1,0 +1,23 @@
+# docker-compose.yml for Chili Backend
+# Run with: docker-compose up --build
+
+services:
+  app:
+    build: .
+    container_name: chili-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist SQLite database
+      - ./data:/app/data
+      # Persist uploaded avatars
+      - ./static:/app/static
+    environment:
+      # Use data directory for database (persisted via volume)
+      - DATABASE_URL=sqlite:///./data/dev.db
+    restart: unless-stopped
+
+
+
+
+

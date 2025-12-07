@@ -1,0 +1,46 @@
+# Database
+data/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.cursor/
+
+# Logs and temp files
+*.log
+*.tmp
+bash.exe.stackdump
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Static uploads (keep .gitkeep, ignore actual images)
+static/avatars/*
+!static/avatars/.gitkeep
+
+
+
+
